@@ -1,0 +1,135 @@
+/* responsive */
+
+@media(max-width:1000px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .primary-button {
+        padding: 8px 18px;
+    }
+
+    .secondary-button {
+        padding: 8px 18x;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        gap: 12px;
+    }
+
+    .header-left {
+        max-width: 100%;
+    }
+
+    .header-left h1 {
+        margin-top: 0px;
+    }
+
+    .header-right img {
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-basis: 0px;
+    }
+
+    .logo {
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .features-section {
+        margin-top: 40px;
+        padding-top: 0;
+    }
+
+    .features-card {
+        width: 100%;
+    }
+
+    .section2{
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .cta-section {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        padding-top: 40px;
+        width: 100%;
+    }
+    .cta-area{
+        flex-direction: column-reverse;
+    }
+    .cta-li {
+        width: 100%;
+    }
+    .cta-left{
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .cta-left h2{
+            font-size: 2.3rem;
+        }
+    .cta-right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .test{
+        width: 100%;
+    }
+
+    .test-item{
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        gap: 20px;
+    }
+    .test-item h2{
+        font-size: 1.5rem;
+    }
+
+
+    .footer{
+        height:auto;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .ft-content{
+        width: 100%;
+        padding-bottom: 0;
+        }
+    .subfooter{
+        height: auto;
+    }
+    .social-links{
+        flex-direction: row;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+    .social-links img{
+        height: 30px;
+    }
+}
